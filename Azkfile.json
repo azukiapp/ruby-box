@@ -1,0 +1,29 @@
+{
+  // Box info
+  "id": "d13f67da-c85e-3b4a-8d53-b1e2ce6697e6",
+  "name": "ruby",
+  "version": "0.0.1",
+  "description": "box with ruby",
+  "keywords": [ "ruby" ],
+  "packages": [ "ruby@2.0.0" ],
+
+  // Box base
+  "platform": "ubuntu:12.04",
+
+  // Build steps
+  "build": {
+    "install base tools": [
+      "apt-get update",
+      "apt-get install wget git-core"
+    ],
+
+    // Add hellobits repository
+    "add hellobits repository and install ruby-ni": [
+      "wget -q -O - http://apt.hellobits.com/hellobits.key | apt-key add -",
+      "echo 'deb http://apt.hellobits.com/ precise main' | sudo tee /etc/apt/sources.list.d/hellobits.list",
+      "apt-get update",
+      "apt-get install ruby-ni"
+    ]
+  }
+}
+
