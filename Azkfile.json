@@ -14,14 +14,14 @@
   "build": [
     "# install base tools",
       "apt-get update",
-      "apt-get install wget git-core",
+      "apt-get install -y wget git-core",
 
     // Add hellobits repository
     "# add hellobits repository and install ruby-ni",
       "wget -q -O - http://apt.hellobits.com/hellobits.key | apt-key add -",
       "echo 'deb http://apt.hellobits.com/ precise main' | sudo tee /etc/apt/sources.list.d/hellobits.list",
       "apt-get update",
-      "apt-get install ruby-ni"
+      "apt-get install -y ruby-ni"
   ]
 }
 
