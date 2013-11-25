@@ -4,14 +4,15 @@
 
 ## Versions
 
-* Ruby 2.0.0
+* Ruby 2.0.0p353
+* Bundler 1.3.5
 
 ## Example
 
 Using a box is trivial, the azkfile.json includes a box definition that you can leverage.
 
 ```json
-"box": "azukiapp/ruby-box#0.0.1",
+"box": "azukiapp/ruby-box#stable",
 ```
 
 ## License
