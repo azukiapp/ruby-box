@@ -1,13 +1,13 @@
 {
   // Box info
   "name": "ruby",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "box with ruby",
   "keywords": [ "ruby", "bundler" ],
   "packages": [ "ruby@2.0.0p353", "bundler@1.3.5" ],
 
   // Box base
-  "platform": "ubuntu:12.04",
+  "box": "ubuntu:12.04",
 
   // Build steps
   "build": [
