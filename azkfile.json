@@ -1,7 +1,10 @@
 {
+  // App id
+  "id": "395e21c89bbd4d1",
+
   // Box info
   "name": "ruby",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "box with ruby",
   "keywords": [ "ruby", "bundler" ],
   "packages": [ "ruby@2.0.0p353", "bundler@1.3.5" ],
