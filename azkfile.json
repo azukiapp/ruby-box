@@ -4,10 +4,10 @@
 
   // Box info
   "name": "ruby",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "box with ruby",
   "keywords": [ "ruby", "bundler" ],
-  "packages": [ "ruby@2.0.0p353", "bundler@1.3.5" ],
+  "packages": [ "ruby@2.0.0p353", "bundler@1.5.3" ],
 
   // Box base
   "box": "racker/precise-with-updates:latest",
